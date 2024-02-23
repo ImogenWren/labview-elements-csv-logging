@@ -53,12 +53,18 @@ _Opens CSV file create in previous step & Applies data labels to column headings
 2. (Optional) pass bool to _keep file open?_ input, default (true)
   - Note: If file remains open use bitstream for following modules, if file is closed pass Log File Path as reference. Best implementation depends on use case.
 
+### Block Diagram
+![image](https://github.com/ImogenWren/labview-elements-csv-logging/assets/97303986/2eb698e0-a555-4975-bb3f-06c21713b07a)
+
+
 ## Logfile Log CSV
 _Takes data array as input and logs to CSV file, optional configurable timestamp as 1st data column_
 #### Example Implementation
 ![image](https://github.com/ImogenWren/labview-elements-csv-logging/assets/97303986/55224fee-0fe4-4c75-865a-657b34249076)
 
-### Front Panel
-![image](https://github.com/ImogenWren/labview-elements-csv-logging/assets/97303986/2c401623-f7be-462c-9478-2f4248a68d33)
 #### Usage
 1. Select timestamp options, Note: Including Milliseconds will prevent excel from displaying times correctly. If milliseconds resolution is required, reccommend parsing with python or other data processing scripts, rather than excel.
+
+### Block Diagram
+![image](https://github.com/ImogenWren/labview-elements-csv-logging/assets/97303986/338c314e-5a6d-48ab-a560-8eefd390a2fb)
+
