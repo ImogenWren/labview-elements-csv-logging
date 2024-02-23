@@ -1,5 +1,10 @@
 # labview-elements-csv-logging
 Example for robust and configurable UI for datalogging to CSV file
+- 4 seperate VIs
+  - Logfile Build Filepath - Name log file
+  - Logfile CSV Data Headings - Open/Create File & Write column headings
+  - Logfile Log CSV - Transform data array into timestamped datetime and log to open file
+  - Close File - Standard LV Option
 
 
 ## Working Example
